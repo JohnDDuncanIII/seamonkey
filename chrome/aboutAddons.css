@@ -1,0 +1,28 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@-moz-document url(about:addons) {
+* {
+  font-family: Charcoal !important;
+  font-size: 10px !important;
+}
+
+#addons-page{
+}
+
+.name, .global-warning-text, .version, #detail-name, #detail-version, #detail-creator, .warning, .disabled-postfix, .global-warning{
+font-weight: normal !important;
+}
+#category-userstyle .category-icon {
+list-style-image: url("chrome://mozapps/skin/extensions/userstyles.png") !important;
+}
+
+.icon-container { 
+list-style-image: url("chrome://mozapps/skin/extensions/category-plugins.png") !important;
+}
+
+#category-userscript .category-icon {
+list-style-image: url("chrome://mozapps/skin/extensions/userscripts.png") !important;
+}
+
+#category-extension .category-icon {
+list-style-image: url("chrome://mozapps/skin/extensions/extensionGeneric.png") !important;
+} }

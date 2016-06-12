@@ -1,0 +1,5 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/* Make about:blank background same as my system-wide OS9 skin.. */
+@-moz-document url(about:blank) {
+  html,body { background: #cecece !important; }
+}
