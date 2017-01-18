@@ -1,3 +1,19 @@
+//https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks
+//https://addons.mozilla.org/en-US/firefox/addon/html5-websql-for-firefox/
+user_pref("browser.send_pings", true);
+user_pref("javascript.options.shared_memory", true);
+user_pref("webgl.enable-webgl2", true);
+user_pref("gfx.offscreencanvas.enabled", true);
+user_pref("dom.vr.enabled", true);
+user_pref("dom.flyweb.enabled", true);
+user_pref("media.seekToNextFrame.enabled", true);
+user_pref("dom.node.rootNode.enabled", true);
+user_pref("devtools.webconsole.new-frontend-enabled", true);
+user_pref("devtools.responsive.html.enabled", true);
+user_pref("devtools.performance.ui.experimental", true);
+user_pref("dom.requestIdleCallback.enabled", true);
+user_pref("dom.push.enabled", true);
+
 // Allows page scrolling with middle mouse click
 user_pref("general.autoScroll", true);
 
@@ -43,7 +59,7 @@ user_pref("browser.urlbar.clickSelectsAll", true);
 user_pref("browser.tabs.mouseScrollAdvancesTab", false);
 
 // Set links to mcom homepage instead of seamonkey homepage
-user_pref("browser.startup.homepage", "http://home.mcom.com/home/welcome.html");
+user_pref("browser.startup.homepage", "file:///Users/John/Desktop/Completed/NotePad/index.html");
 user_pref("browser.throbber.url", "http://home.mcom.com/home/welcome.html");
 user_pref("addressbook.throbber.url", "http://home.mcom.com/home/welcome.html");
 user_pref("compose.throbber.url", "http://home.mcom.com/home/welcome.html");
@@ -61,6 +77,23 @@ user_pref("dom.identity.enabled", true);
 
 user_pref("layout.css.touch_action.enabled", true);
 user_pref("security.csp.experimentalEnabled", true);
+
+// https://developer.mozilla.org/en-US/Firefox/Experimental_features
+// https://dxr.mozilla.org/mozilla-central/source/modules/libpref/init/all.js
+user_pref("layout.css.grid.enabled", true);
+user_pref("layout.css.float-logical-values.enabled", true);
+user_pref("layout.css.control-characters.enabled", true);
+user_pref("layout.css.grid-template-subgrid-value.enabled", true);
+user_pref("layout.css.clip-path-shapes.enabled", true);
+user_pref("layout.css.font-display.enabled", true);
+user_pref("layout.css.touch_action.enabled", true);
+
+user_pref("svg.transform-box.enabled", true);
+user_pref("webgl.enable-draft-extensions", true);
+user_pref("webgl.enable-privileged-extensions", true);
+user_pref("webgl.enable-prototype-webgl2", true);
+user_pref("layout.css.getBoxQuads.enabled", true);
+user_pref("layout.css.convertFromNode.enabled", true);
 
 // Disable compat checking
 user_pref("extensions.checkCompatibility.nightly", false);

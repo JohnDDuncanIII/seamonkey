@@ -1,17 +1,17 @@
 @import "aboutAddons.css";
 @import "aboutConfig.css";
 @import "aboutBlank.css";
-@import "redditNostalgia.css";
+/*@import "redditNostalgia.css";*/
 @import "gopher.css";
 @import "tobiasjung.css";
-@import "wikipedia.css";
+/*@import "wikipedia.css";
 @import "youtube-proper.css";
 @import "youtube-nyan.css";
 @import "youtube-visisted.css";
 @import "google.css";
 @import "last.fm.css";
-/*@import "facebook-flat.css";*/
-/*@import "newYorker.css";*/
+@import "facebook-flat.css";
+@import "newYorker.css";*/
 * {
   /*font-smooth: never !important;
   -moz-osx-font-smoothing: unset !important;*/
