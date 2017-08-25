@@ -3,10 +3,10 @@
 
 /* Change all UI fonts to Charcoal*/
 * {
-   font-family: Charcoal !important;
-   /*font-family: eWorldTight_18 !important;
-  font-size: 18px !important;*/
-  font-size: 10px !important;
-  font-smooth: never !important;
-  -moz-osx-font-smoothing: unset !important;
+    /*font-family: Charcoal !important;
+   font-family: eWorldTight_18 !important;
+  font-size: 18px !important;
+    font-size: 10px !important;
+    font-smooth: never !important;
+    -moz-osx-font-smoothing: unset !important;*/
 }

@@ -2,7 +2,6 @@
 .DS_Store
 /[^.]*
 !/chrome/
-!/gm_scripts/
 !prefs.js
 !README.md
 !user.js

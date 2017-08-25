@@ -1,17 +1,16 @@
 @-moz-document domain("google.com") {
-	
-	#hplogo {
-		display: none !important;
-	}
-	#lga {
-		margin-top: 100px !important;
-		background: url("chrome://communicator/skin/brand/google5.png") no-repeat center !important;
-	}
+    #hplogo {
+	display: none !important;
+    }
+    #lga {
+	margin-top: 100px !important;
+	background: url("google.png") no-repeat center !important;
+    }
 
 }
 @-moz-document url("https://www.google.com/webhp?complete=0") {
-	* {
-  font-family: Charcoal !important;
-  font-weight:normal !important;
-}
+    /** {
+	font-family: Charcoal !important;
+	font-weight:normal !important;
+    }*/
 }
